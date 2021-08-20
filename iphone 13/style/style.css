@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    min-width: 320px; /* минимальная ширина сайта*/
+    min-height: 100vh; /* минимальная высота сайта*/
+  
+    background-color: #fff;     /* указать фон под проект*/
+    font-family: "SF UI Text", sans-serif; /* указать шрифт под проект*/
+    font-size: 20px; /* самый используемый размер шрифта сайта*/
+    font-weight: 400; /* жирность сайта*/
+    color: #000; /* осн цвет текста*/
+    line-height: 1;
+
+}
+
+img {
+    max-width: 100%; /*макс. размер картинки*/
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  figure,
+  figcaption,
+  fieldset {
+    margin: 0;
+  }
